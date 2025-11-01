@@ -273,7 +273,6 @@ body {
                               /*? ABOUT SECTION */
 #about{
    margin-top: 10vh;
-   scroll-margin-top: 10vh;
 } 
 .about1 h2 {
   color: #fff;
@@ -930,3 +929,4 @@ form.input {
 }
 
  /***** End scroll-behavior *****/
+
