@@ -1,0 +1,160 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>portfolio</title>
+      <link rel="stylesheet" href="style.css" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+      <meta name="description" content="This website is actually a portfolio of muzammil">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+      <header>
+        <!-- NAV designing -->
+        <div class="nav-bar">
+          <nav>
+            <ul>
+              <li><a href="#home">home</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#skills">skills</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="snap-container">
+        <h1 style="color:#fff; font-size:2rem; visibility:hidden;">Portfolio of Muzammil</h1>
+        <!-- TEXT/HOME SECTION  -->
+        <section id="home">
+          <div class="home2">
+            <p class="name2">i'm <span class="name">muzammil</span></p>
+            <p class="name3">photographer & web-developer</p>
+          </div>
+
+          <div class="photo">
+            <img src="/my bw  (1).jpg"  alt="my photo" class="men-pic" loading="eager" />
+          </div>
+        </section>
+
+        <!-- about section-->
+        <section id="about">
+          <div class="about1">
+            <h2>my name:</h2>
+            <hr />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique
+              voluptatum, cupiditate iure nam neque repellendus molestias sapiente
+              quasi dolore ipsa magnam quia nesciunt cumque eaque nostrum. Neque
+              obcaecati dicta possimus Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Similique voluptatum, cupiditate iure nam neque
+              repellendus molestias sapiente quasi dolore ipsa magnam quia
+              nesciunt cumque eaque nostrum. Neque obcaecati dicta possimus.
+            </p>
+          </div>
+        </section>
+
+                                        <!-- **skills section -->
+        <section id="skills">
+          <div class="skills">
+            <h2>skills:</h2>
+            <hr /> 
+            <br />
+            <label for="html">html code:</label>
+            <progress id="html" value="90" max="100">90% percent html</progress>
+            <br />
+            <label for="css">css code:</label>
+            <progress id="css" value="90" max="100">90% percent css</progress>
+              <br />
+            <label for="pyhton">pyhton code:</label>
+            <progress id="pyhton" value="30" max="100">
+              30% percent python
+            </progress>
+          </div>
+        </section>
+        <div class="grid">
+          <div class="item1 item">
+            <p>11+</p>
+            <p>partners</p>
+          </div>
+          <div class="item2 item">
+            <p>55+</p>
+            <p>project done</p>
+          </div>
+          <div class="item3 item">
+            <p>89+</p>
+            <p>happy clients</p>
+          </div>
+          <div class="item4 item">
+            <p>150+</p>
+            <p>meetings</p>
+          </div>
+        </div>
+
+      <!-- PHOTO SECTION -->
+        <section id="photos">
+          <h2>my photos:</h2>
+          <hr />
+          <div class="parent">
+            <img src="/wedding.jpg" alt="wedding pic" class="a items" loading="lazy" />
+            <img src="/rocks.jpg" alt="rocks pic" class="b items" loading="lazy"/>
+            <img src="/p6.jpg" alt="radio pic" class="c items" loading="lazy"/>
+            <img src="/underwater.jpg" alt="man underwater pic" class="d items" loading="lazy" />
+            <img src="/sailboat (1).jpg" alt="sail bot pic" class="e items" loading="lazy" />
+            <img src="/man_smoke.jpg" alt="men smoking pic" class="f items" loading="lazy"/>
+          </div>
+        </section>
+
+        <!-- CONTACT SECTION ↕ -->
+        <section id="contact">
+          <div class="form">
+            <h2>contact:</h2>
+            <hr />
+            <p><i class="fa-solid fa-location-dot"></i> pakistan</p>
+            <p><i class="fa-solid fa-phone"></i> phone: 0300-0000</p>
+            <p><i class="fa-solid fa-envelope"></i> email: mail@gmail---</p>
+            <p>let's get in touch. send me a message.</p>
+            <form  action="https://formspree.io/f/xyzbjyyz" method="POST"
+            class="input">
+              <label for="name"></label>
+              <input type="text" placeholder="Enter your name" id="name" name="name" required/>
+              <br />
+              <label for="email"></label>
+              <input
+                type="Email"
+                placeholder="Enter your email"
+                id="email"
+                name="email"
+                required
+              />
+              <br />
+              <label for="subject"></label>
+              <input type="subject" placeholder="Enter your title" id="subject" name="subject" required/>
+              <br />
+              <label for="message"></label>
+              <input type="message" placeholder="message" id="message" name="message" required />
+              
+            <button type="submit" class="send">
+              <i class="fa-solid fa-paper-plane"></i> send message
+            </button>
+          </form>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>© 2025 <strong>muzammil Portfolio</strong>. All rights reserved.</p>
+      </footer>
+      <script src="js/main.js" defer></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        AOS.init();
+        <script>
+      </script>
+    </body>
+  </html>
